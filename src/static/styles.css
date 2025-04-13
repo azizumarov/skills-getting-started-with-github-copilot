@@ -90,6 +90,14 @@ section h3 {
   line-height: 1.4;
 }
 
+/* New styles for participant info */
+.activity-card ul li::before {
+  content: "👤 ";
+  color: #0066cc;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
